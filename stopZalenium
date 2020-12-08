@@ -1,0 +1,9 @@
+node
+{
+
+stage ('Pull-Images')
+    {
+        sh "docker stop zalenium"
+    }
+
+}
