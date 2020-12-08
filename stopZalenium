@@ -1,7 +1,7 @@
 node
 {
 
-stage ('Pull-Images')
+stage ('StopZalenium')
     {
         sh "docker stop zalenium"
     }
