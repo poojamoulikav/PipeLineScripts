@@ -3,7 +3,7 @@ node
 
 stage ('StopZalenium')
     {
-        sh "sudo docker stop zalenium"
+        sh 'docker stop zalenium'
     }
 
 }
